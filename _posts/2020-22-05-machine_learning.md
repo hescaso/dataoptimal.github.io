@@ -1,14 +1,14 @@
 ---
-title: "Project"
+title: "Machine Learning Dataset Vinícola"
 date: 2020-05-22
-tags: [data wrangling, data science]
+tags: [machine learning, regression, classification]
 header:
-  image: "/images/MachineLearning/imagen_vino.jpg"
-excerpt: "Data Science, Messy Data"
+  image: "/images/MachineLearning/imagen_vinos.jpg"
+excerpt: "Data Science, Machine Learning"
 mathjax: "true"
 ---
 
-# Clasificación y regresión de un dataset vinícola
+# Clasificación y Regresión Dataset Vinícola
 
 Vamos a utilizar un dataset sobre distintos vinos con sus características (como pueden ser la acidez, densidad...). Tendremos que generar, entrenar, validar y testear modelos tanto de clasificación como de regresión.
 
