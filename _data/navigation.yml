@@ -2,7 +2,7 @@ c# main links
 main:
   - title: "Acerca de"
     url: /about/
-  - title: "Projectos"
+  - title: "Proyectos"
     url: /projects/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
