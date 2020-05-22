@@ -1,3 +1,13 @@
+---
+title: "Project"
+date: 2020-22-05
+tags: [data wrangling, data science]
+header:
+  image: "/images/perceptron/percept.jpg"
+excerpt: "Data Science, Messy Data"
+mathjax: "true"
+---
+
 # Clasificación y regresión de un dataset vinícola
 
 Vamos a utilizar un dataset sobre distintos vinos con sus características (como pueden ser la acidez, densidad...). Tendremos que generar, entrenar, validar y testear modelos tanto de clasificación como de regresión.
