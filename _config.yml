@@ -9,7 +9,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "Madrid"
-title                    : "Portfolio Héctor Escaso"
+title                    : "Proyectos Héctor Escaso"
 title_separator          : "-"
 name                     : "Héctor Escaso"
 description              : "Data Scientist Portfolio"
