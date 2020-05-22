@@ -16,7 +16,6 @@ El dataset proviene de la Universdad de Minho, generado por [P. Cortez](http://w
 
 Adjunto la descripción del dataset:
 
-```
 Citation Request:
   This dataset is public available for research. The details are described in [Cortez et al., 2009]. 
   Please include this citation if you plan to use this database:
@@ -89,7 +88,6 @@ Citation Request:
    12 - quality (score between 0 and 10)
 
 8. Missing Attribute Values: None
-```
 
 Además de las 12 variables descritas, el dataset tiene otra: si el vino es blanco o rojo. Dicho esto, los objetivos son:
 
