@@ -1,6 +1,6 @@
 ---
 title: "Project"
-date: 2020-22-05
+date: 2020-05-22
 tags: [data wrangling, data science]
 header:
   image: "/images/perceptron/percept.jpg"
