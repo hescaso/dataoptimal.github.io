@@ -3,7 +3,7 @@ title: "Project"
 date: 2020-05-22
 tags: [data wrangling, data science]
 header:
-  image: "/images/perceptron/percept.jpg"
+  image: "/images/MachineLearning/imagen_vino.jpg"
 excerpt: "Data Science, Messy Data"
 mathjax: "true"
 ---
