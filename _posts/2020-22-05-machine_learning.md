@@ -5,14 +5,12 @@ tags: [machine learning, regression, classification]
 header:
   image: "/images/MachineLearning/imagen_vinos.jpg"
 excerpt: "Data Science, Machine Learning"
+classes: "wide"
 mathjax: "true"
-classes: wide
+
 ---
 
-classes: wide
 # Clasificación y Regresión
-
-HOLA
 
 Vamos a utilizar un dataset sobre distintos vinos con sus características (como pueden ser la acidez, densidad...). Tendremos que generar, entrenar, validar y testear modelos tanto de clasificación como de regresión.
 
