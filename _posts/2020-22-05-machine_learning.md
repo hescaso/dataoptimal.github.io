@@ -12,6 +12,8 @@ classes: wide
 classes: wide
 # Clasificación y Regresión
 
+HOLA
+
 Vamos a utilizar un dataset sobre distintos vinos con sus características (como pueden ser la acidez, densidad...). Tendremos que generar, entrenar, validar y testear modelos tanto de clasificación como de regresión.
 
 El dataset proviene de la Universdad de Minho, generado por [P. Cortez](http://www3.dsi.uminho.pt/pcortez/Home.html) et al. Dicho dataset se encuentra en el [*UC Irvine Machine Learning Repository*](https://archive.ics.uci.edu/ml/index.html) ([aquí](https://archive.ics.uci.edu/ml/datasets/Wine+Quality) está disponible.
