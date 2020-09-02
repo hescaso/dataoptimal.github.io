@@ -8,6 +8,7 @@
   margin-top: 2em;
   margin-right: auto;
   padding-left: 1em;
+  padding-right: 1em;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   max-width: 100%;
@@ -20,15 +21,15 @@
 }
 
 .page {
-	  @include breakpoint($large) {
-	    float: right;
-	    width: 100%;
-	  }
-	
 
-	  @include breakpoint($x-large) {
-	    width: 100%;
-	  }
+  @include breakpoint($large) {
+    float: right;
+    width: calc(100% - #{$right-sidebar-width-narrow});
+  }
+
+  @include breakpoint($x-large) {
+    width: calc(100% - #{$right-sidebar-width});
+  }
 
 
   .page__inner-wrap {
