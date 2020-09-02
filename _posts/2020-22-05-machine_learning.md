@@ -6,6 +6,7 @@ header:
   image: "/images/MachineLearning/imagen_vinos.jpg"
 excerpt: "Data Science, Machine Learning"
 mathjax: "true"
+classes: wide
 ---
 
 # Clasificación y Regresión
