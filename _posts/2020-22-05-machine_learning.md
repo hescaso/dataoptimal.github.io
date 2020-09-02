@@ -9,6 +9,7 @@ mathjax: "true"
 classes: wide
 ---
 
+classes: wide
 # Clasificación y Regresión
 
 Vamos a utilizar un dataset sobre distintos vinos con sus características (como pueden ser la acidez, densidad...). Tendremos que generar, entrenar, validar y testear modelos tanto de clasificación como de regresión.
