@@ -721,10 +721,7 @@ sns.pairplot(df_train, hue = "color", height = 2)
 
 
 
-
-![png](output_21_2.png)
-
-
+{% include figure image_path="/images/MachineLearning/output_21_2.png" %}
 
 ```python
 # Sacamos la matriz de correlación:
@@ -1001,8 +998,8 @@ sns.heatmap(df_train.corr(),
 
 
 
+{% include figure image_path="/images/MachineLearning/output_23_1.png" %}
 
-![png](output_23_1.png)
 
 
 Vemos que la mayor correlación (0,72) se produce entre las variables "total sulfur dioxide" y "free sulfur dioxide", lo cual parece lógico ya que ambas variables están relacionadas con el dioxido de sulfuro del vino. 
@@ -2204,8 +2201,8 @@ sns.heatmap(matriz_confusion_df,
 pass
 ```
 
+{% include figure image_path="/images/MachineLearning/output_87_0.png" %}
 
-![png](output_87_0.png)
 
 
 # B. MODELO DE REGRESIÓN
