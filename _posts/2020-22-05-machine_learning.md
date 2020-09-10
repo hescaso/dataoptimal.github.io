@@ -692,9 +692,7 @@ df_train.plot(kind = "box",
 
 
 
-
-![png](output_19_1.png)
-
+/images/MachineLearning/output_19_1.png
 
 Vemos como las variables tienen distintos valores, por lo que va a ser necesario hacer una estandarización de las variables.
 
