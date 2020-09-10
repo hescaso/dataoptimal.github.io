@@ -691,8 +691,8 @@ df_train.plot(kind = "box",
     <matplotlib.axes._subplots.AxesSubplot at 0x1cfcb756bc8>
 
 
+{% include figure image_path="/images/MachineLearning/output_19_1.png" %}
 
-/images/MachineLearning/output_19_1.png
 
 Vemos como las variables tienen distintos valores, por lo que va a ser necesario hacer una estandarización de las variables.
 
