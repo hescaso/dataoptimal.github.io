@@ -34,15 +34,6 @@ Adjunto la descripción del dataset:
 
   P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties.
   In Decision Support Systems, Elsevier, 47(4):547-553. ISSN: 0167-9236.
-
-  In the above reference, two datasets were created, using red and white wine samples.
-  *he inputs include objective tests (e.g. PH values) and the output is based on sensory data
-  (median of at least 3 evaluations made by wine experts). Each expert graded the wine quality 
-  between 0 (very bad) and 10 (very excellent). Several data mining methods were applied to model
-  these datasets under a regression approach. The support vector machine model achieved the
-  best results. Several metrics were computed: MAD, confusion matrix for a fixed error tolerance (T),
-  etc. Also, we plot the relative importances of the input variables (as measured by a sensitivity
-  analysis procedure).
  
 4. Relevant Information:
 
@@ -51,19 +42,10 @@ Adjunto la descripción del dataset:
    Due to privacy and logistic issues, only physicochemical (inputs) and sensory (the output) variables 
    are available (e.g. there is no data about grape types, wine brand, wine selling price, etc.).
 
-   These datasets can be viewed as classification or regression tasks.
-   The classes are ordered and not balanced (e.g. there are munch more normal wines than
-   excellent or poor ones). Outlier detection algorithms could be used to detect the few excellent
-   or poor wines. Also, we are not sure if all input variables are relevant. So
-   it could be interesting to test feature selection methods. 
-
 5. Number of Instances: red wine - 1599; white wine - 4898. 
 
 6. Number of Attributes: 11 + output attribute
   
-   Note: several of the attributes may be correlated, thus it makes sense to apply some sort of
-   feature selection.
-
 7. Attribute information:
 
    For more information, read [Cortez et al., 2009].
@@ -100,14 +82,12 @@ Además de las 12 variables descritas, el dataset tiene otra: si el vino es blan
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.utils import parallel_backend
 ```
 
 
 ```python
 # Leemos el archivo:
-df = pd.read_csv("C:\\winequality.csv",
-                   sep = ";", encoding ='utf-8')
+df = pd.read_csv("C:\\winequality.csv", sep = ";", encoding ='utf-8')
 df.head()
 ```
 
@@ -676,8 +656,7 @@ import seaborn as sns
 
 ```python
 # Gráfico boxplot:
-df_train.plot(kind = "box",
-             figsize = (22, 10))
+df_train.plot(kind = "box", figsize = (22, 10))
 ```
 
 
