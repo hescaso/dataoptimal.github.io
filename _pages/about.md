@@ -2,7 +2,7 @@
 title: "Acerca de"
 permalink: /about/
 header:
-  image: "/images/zakim.jpg"
+  image: "/images/FondoAcercaDe.jpg"
 ---
 
 Economista y Controller con más de 10 años de experiencia.
