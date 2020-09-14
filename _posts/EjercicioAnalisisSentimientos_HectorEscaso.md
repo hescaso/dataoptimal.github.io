@@ -3,7 +3,7 @@ title: "NLP: Análisis de Sentimientos"
 date: 2020-09-14
 tags: [NLP, Natural Lenguaje Processing, analisis sentimientos, machine learning, regression, classification]
 header:
-  image: "/images/MachineLearning/champan.jpg"
+  image: "/images/portadaAnalisisSentimientos.jpg"
 excerpt: "Data Science, Machine Learning, NLP"
 classes: "wide"
 mathjax: "true"
