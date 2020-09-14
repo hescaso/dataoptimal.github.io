@@ -1,3 +1,15 @@
+---
+title: "NLP: Análisis de Sentimientos"
+date: 2020-09-14
+tags: [NLP, Natural Lenguaje Processing, analisis sentimientos, machine learning, regression, classification]
+header:
+  image: "/images/portadaAnalisisSentimientos.jpg"
+excerpt: "Data Science, Machine Learning, NLP"
+classes: "wide"
+mathjax: "true"
+
+---
+
 # Análisis de sentimientos con reviews de productos de Amazon España (opcional)
 
 El dataset que utilizarás en este ejercicio (que no es obligatorio entregar) lo he generado utilizando `Scrapy` y `BeautifulSoup` (dos bibliotecas de Python para hacer [Web Scraping](https://es.wikipedia.org/wiki/Web_scraping)), y contiene unas $700.000$ entradas de reviews de productos de amazon.es; contiene dos columnas: el número de estrellas dadas por un usuario a un determinado producto y el comentario sobre dicho producto; exactamente igual que en el ejercico de scraping.
