@@ -1001,8 +1001,8 @@ sns.heatmap(matriz_confusion_df,
 pass
 ```
 
+{% include figure image_path="/images/MachineLearning/output_58_0.png" %}
 
-![png](output_58_0.png)
 
 
 ## Probamos nuestro modelo con unos comentarios que me invento
