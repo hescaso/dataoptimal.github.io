@@ -270,12 +270,6 @@ df.head()
 
 
 
-Revisando por internet entiendo que no es la mejor opción lanzar un for en un dataframe, aunque en este caso sale bien.
-Deberíamos haber utilizado una función apply:
-
-**df["positivos_negativo"] = df["estrellas"].apply(lambda x:1 if (x>3) else 0)**
-
-
 ```python
 # Vemos cuantos comentarios positivos y negativos hay para poder hacer la selección óptima de la métrica:
 print(df["positivo_negativo"].value_counts())
@@ -286,7 +280,7 @@ print(df["positivo_negativo"].value_counts())
     Name: positivo_negativo, dtype: int64
     
 
-Hay un 51,78% de comentarios positivos y un 48,22% de comentarios negativos, por lo tanto podemos utilizar la métrica **Accuracy**.
+Hay un 51,78% de comentarios positivos y un 48,22% de comentarios negativos, por lo tanto el dataset está balanceado y podemos utilizar la métrica **Accuracy**.
 
 
 ```python
@@ -377,10 +371,6 @@ tokens
     ['chic',
      'perfect',
      'esfer',
-     'grand',
-     'corre',
-     'adapt',
-     'muñec',
      'fin',
      'pelin',
      'gord',
@@ -395,42 +385,17 @@ tokens
      'para.muy',
      'floj',
      'cuerd',
-     'anclaj',
-     'mal',
-     'calid',
-     'metal',
      'dobl',
      'dibuj',
      'parec',
      'libr',
      'recomendable.hol',
-     'suel',
-     'escrib',
-     'much',
-     'opinion',
-     'product',
-     'compr',
-     'verd',
      'product',
      'merec',
      'desencant',
      'maquin',
      'afeit',
-     'hac',
-     'años',
-     'compr',
-     'philips',
-     'cuchill',
-     'rotatori',
-     'piel',
-     'extrem',
      'sensibl',
-     'usar',
-     'afeit',
-     'hic',
-     'polv',
-     'car',
-     'vam',
      'carn',
      'viv',
     ...
@@ -561,7 +526,7 @@ Ya tenemos vectorizados los comentarios.
 
 
 ```python
-# Con el tiempo que nos ha llevado, vamos a guardar los arrays en un pickle:
+# Guardamos los arrays en un pickle:
 import pickle
 filename = 'Comentarios_train.pickle'
 with open(filename, 'wb') as filehandler:
@@ -819,7 +784,7 @@ gs_vecinos.best_score_
 
 
 
-Con el tiempo que nos ha llevado cada modelo, y por la salud del pc, vamos a quedarnos con estos 3 modelos:
+Con el tiempo que nos ha llevado cada modelo, vamos a quedarnos con estos 3 modelos:
     1. Regresión Logística: 0.8808200244041702
     2. Árboles de decisión: 0.7371649075581919
     3. K-Nearest Neoghbors: 0.6939910533080703
@@ -1005,9 +970,9 @@ pass
 
 
 
-## Probamos nuestro modelo con unos comentarios que me invento
+## Probamos nuestro modelo con nuevos comentarios
 
-Por probar un poco más nuestro modelo, vamos a meter una serie de comentarios inventados por mi y una valoración de los mismo, a ver si conseguimos que nuestro modelo funcione.
+Para probar nuestro modelo, vamos a meter una serie de comentarios inventados y una valoración de los mismos.
 
 
 ```python
@@ -1080,4 +1045,4 @@ print(F1_score)
     1.0
     
 
-Realmente con los comentarios que he introducido era previsible que el modelo acertara a la perfección, pero quería comprobar que el modelo podría funcionar con otros comentarios.
+Realmente con los comentarios que he introducido era previsible que el modelo acertara a la perfección, tan solo queríamos comprobar que el modelo podría funcionar con otros comentarios.
