@@ -3,6 +3,7 @@ title: "Machine Learning Dataset Vinícola"
 date: 2020-05-22
 tags: [machine learning, regression, classification]
 header:
+- image: "/images/MachineLearning/champan.jpg"
 excerpt: "Data Science, Machine Learning"
 classes: "wide"
 mathjax: "true"
