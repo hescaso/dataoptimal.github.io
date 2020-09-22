@@ -4,7 +4,7 @@ permalink: /data-wrangling/
 title: "Proyectos"
 author_profile: true
 header:
-  image: "/images/portadaProyectos.png"
+  image: "/images/FondoAcercaDe.jpg""
 ---
 
 
