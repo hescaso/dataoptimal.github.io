@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning Dataset Vinícola"
+title: "Machine Learning: Búsqueda de la composición química del vino perfecta"
 date: 2020-05-22
 tags: [machine learning, regression, classification]
 header:
@@ -9,6 +9,9 @@ classes: "wide"
 mathjax: "true"
 
 ---
+El objetivo de este proyeccto es buscar un modelo con el cual podamos predecir la nota final que va a tener nuestro vino según la composición química. Con esto podremos elaborar vinos que puedan tener una nota final elevada, lo que se traduciría en ventas de nuestro producto.
+
+Para realizar este trabajo, vamos a realizar un ejercicio de clasificación entre vino blanco y tinto de nuestro dataset. Con este primer paso contrastaremos la calidad de nuestros datos, para posteriormente buscar nuestro modelo de regresión que nos prediga la nota final.
 
 # Clasificación y Regresión
 
@@ -68,7 +71,7 @@ Adjunto la descripción del dataset:
 8. Missing Attribute Values: None
 
 
-Además de las 12 variables descritas, el dataset tiene otra: si el vino es blanco o rojo. Dicho esto, los objetivos son:
+Además de las 12 variables descritas, el dataset tiene otra: si el vino es blanco o tinto. Dicho esto, los objetivos son:
 
 1. Separar el dataset en training (+ validación si no vas a hacer validación cruzada) y testing, haciendo antes (o después) las transformaciones de los datos que consideres oportunas, así como selección de variables, reducción de dimensionalidad... Puede que decidas usar los datos tal cual vienen también...
 2. Hacer un modelo capaz de clasificar lo mejor posible si un vino es blanco o rojo a partir del resto de variables (vas a ver que está chupado conseguir un muy buen resultado).
