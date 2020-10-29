@@ -10,8 +10,6 @@ mathjax: "true"
 
 ---
 
-# NLP: Análisis de sentimientos 
-
 Vamos a trabajar con un dataset que contiene unas $700.000$ entradas de reviews de productos de amazon.es; contiene dos columnas: el número de estrellas dadas por un usuario a un determinado producto y el comentario sobre dicho producto. El número de estrellas que un usuario da a un producto es el indicador de si a dicho usuario le ha gustado el producto o no. 
 
 Vamos a establecer una regla para convertirlo en un problema de clasificación, si una review tiene 4 o más estrellas se trata de una review positiva, y será negativa si tiene menos de 4 estrellas. 
