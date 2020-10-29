@@ -1,3 +1,15 @@
+---
+title: "CARTO: Nueva línea Metro Madrid"
+date: 2020-10-29
+tags: [CARTO, Visualización, Viz, Geoespacial, Json]
+header:
+  image: "/images/AnalisisSentimientos/AnalisisSentimientos.jpeg"
+excerpt: "CARTO, Visualización, Viz, Geoespacial, Json"
+classes: "wide"
+mathjax: "true"
+
+---
+
 # Objetivo:
 
 El Consorcio de Transportes de la Comunidad de Madrid (CTM) nos ha encargado un estudio para la posible creación de una nueva línea de metro que agilice la movilidad en el Municipio de Madrid.
