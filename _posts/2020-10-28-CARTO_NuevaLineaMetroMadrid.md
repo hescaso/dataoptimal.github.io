@@ -104,12 +104,14 @@ Con este dataset ya podemos empezar nuestro análisis.
 
 
 Comenzamos con las Utilización de las Estaciones:
+{% include figure image_path="/images/map1.jpg" %}
 
 Podemos ver que en 2018 el total de utilizaciones está cerca de los 1.600 millones. La línea de metro más utilizada es la línea 6 con 250 millones de utilizaciones durante 2018. Le siguen la línea 1 con 210 millones y la línea 5 en tercer lugar con 160 millones.
 
 El Máximo de Utilizaciones de una Estación está en torno a 24 millones.
 
 Ahora vamos a ver las Entradas en las Estaciones:
+{% include figure image_path="/images/map2.jpg" %}
 
 En cuanto a las Entradas, tenemos en 2018 más de 651 millones.
 
@@ -124,10 +126,12 @@ Renombramos la capa a Entradas2018, cambiamos el tamaño de los puntos por valor
 Duplicamos la capa y la renombramos como Utilizaciones2018. Cambiamos el tamaño máximo de los puntos a 45, le otorgamos tamaño según el valor de la columna utilizaciones_2018 y la cuantificación a Equal Interval. Le damos color amarillo opaco.
 
 Con estos estilos podemos ver de una manera gráfica las Estaciones que poseen un mayor número de Entradas y de Utilizaciones. 
+{% include figure image_path="/images/map3.jpg" %}
 
 Para decidir cuales son las estaciones que van a formar parte de nuestra selección decidimos que aquellas Estaciones que superen la mitad del Máximo de Entradas y/o Utilizaciones son Estaciones clave en el flujo de movilidad de Madrid.
 
 Ahora con la ayuda de los Widgets vamos a filtrar por las estaciones que tengan más de 5 millones de Entradas (La mitad del Máximo) y más de 12 millones de Utilizaciones (Igualmente, la mitad del Máximo).
+{% include figure image_path="/images/map4.jpg" %}
 
 Lógicamente nos salen 5 Estaciones calve de la ciudad de Madrid, ya que algunas son Intercambiadores con Estaciones de Autobús y Renfe (Moncloa, Méndez Álvaro y Atocha Renfe), luego tenemos Sol, eje de la ciudad, y Príncipe Pío , estación de obligado paso para Madrid Sur.
 
