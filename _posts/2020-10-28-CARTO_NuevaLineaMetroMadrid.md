@@ -24,6 +24,9 @@ Por último, emitiremos un informe de conclusiones para dar respuesta a la solic
 
 # Desarrollo del proyecto
 
+(Podemos encontrar la visualización en https://hescaso.carto.com/builder/1467c245-7792-4143-900c-357e7508c99b)
+
+
 ## 1.	Recopilación de datos
 
 Para comenzar buscamos datos de la red de Metro de Madrid que nos pueda ayudar en nuestro análisis. La búsqueda se realiza a través del Portal de Datos Abiertos del Consorcio de Transportes de la Comunidad de Madrid (https://data-crtm.opendata.arcgis.com/), y de la página Metro Madrid que ofrece datos estadísticos de tránsito de viajeros por estación.
