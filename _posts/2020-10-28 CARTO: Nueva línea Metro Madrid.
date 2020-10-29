@@ -1,10 +1,10 @@
 ---
 title: "CARTO: Nueva línea Metro Madrid"
 date: 2020-10-28
-tags: [CARTO, Visualización, Viz, Geoespacial, Json]
+tags: [CARTO, Visualization, Viz, Geoespacial, Json]
 header:
-  image: ""
-excerpt: "CARTO, Visualización, Viz, Geoespacial, Json"
+  image: "/images/MapaMadrid.jpg"
+excerpt: "CARTO, Visualization, Viz, Geoespacial, Json"
 classes: "wide"
 mathjax: "true"
 
