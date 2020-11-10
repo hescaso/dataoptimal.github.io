@@ -1,3 +1,14 @@
+---
+title: "El Juego de la Vida: Programando en Python"
+date: 2020-11-10
+tags: [python,game life,juego de la vida, automata celular,cellular automata]
+header:
+  image: "/images/MachineLearning/champan.jpg"
+excerpt: "python,game life,juego de la vida, automata celular,cellular automata"
+classes: "wide"
+mathjax: "true"
+
+---
 El Juego de la vida es un autómata celular diseñado por el matemático británico John Horton Conway en 1970.
 
 Se trata de un juego de cero jugadores, lo que quiere decir que su evolución está determinada por el estado inicial y no necesita ninguna entrada de datos posterior. El "tablero de juego" es una malla plana formada por cuadrados (las "células") que se extiende por el infinito en todas las direcciones. Por tanto, cada célula tiene 8 células "vecinas", que son las que están próximas a ella, incluidas las diagonales. Las células tienen dos estados: están "vivas" o "muertas". El estado de las células evoluciona a lo largo de unidades de tiempo discretas (se podría decir que por momentos). El estado de todas las células se tiene en cuenta para calcular el estado de las mismas en el siguiente momento. Todas las células se actualizan simultáneamente en cada turno, siguiendo estas reglas:
