@@ -170,7 +170,7 @@ while True:
 
 Y tendríamos así la pantalla.
 
-{% include figure image_path="/images/GameOfLife/celdas.jpg" %}
+{% include figure image_path="/images/GameOfLife/celdas.png" %}
 
 ### 3. Estado de las Celdas
 
@@ -186,7 +186,7 @@ gameState = np.zeros((ncX, ncY))
 
 Como hemos visto inicialmente con unas simples reglas podemos llegar a un comportamiento complejo. Estas reglas alteran el estado de cada celda en cada "momento". Este cambio de estado va a depender del estado de las celdas vecinas (hay 8 celdas vecinas para cada celda) a la que estamos analizando. 
 
-{% include figure image_path="/images/GameOfLife/vecinos.jpg" %}
+{% include figure image_path="/images/GameOfLife/vecinos.png" %}
 
 En el caso de las celdas que se encuentran en los bordes de nuestra pantalla de juego, las celdas vecinas van a ser las que se encuentran en el borde opuesto. Vamos a visualizar la pantalla como si fuera un toroide, es decir, la pantalla no termina en un borde sino que continua por el borde contrario. Para esto vamos a utilizar la operación módulo.
 
