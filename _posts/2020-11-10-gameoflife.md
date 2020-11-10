@@ -3,7 +3,7 @@ title: "El Juego de la Vida: Programando en Python"
 date: 2020-11-10
 tags: [python,game life,juego de la vida, automata celular,cellular automata]
 header:
-  image: "/images/MachineLearning/champan.jpg"
+  image: "/images/GameOfLife/gamelife.jpg"
 excerpt: "python,game life,juego de la vida, automata celular,cellular automata"
 classes: "wide"
 mathjax: "true"
