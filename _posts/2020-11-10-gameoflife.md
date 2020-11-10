@@ -83,7 +83,7 @@ while True:
 
 Con esto tenemos la pantalla sobre la que iremos trabajando.
 
-### IMAGEN PANTALLA
+{% include figure image_path="/images/GameOfLife/pantalla.jpg" %}
 
 ### 2. Celdas
 El siguiente paso es dividir la pantalla en celdas, para ello definiremos el numero de particiones horizontales y verticales que queremos realizar. Tras esto, dividirimos el alto y ancho de la pantalla entre esas particiones.
@@ -104,7 +104,7 @@ Para poder visualizarlas creamos 2 bucles que recorran cada una de las celdas qu
 Con la función *draw.polygon* dibujamos las celdas. Debemos incluir como parámetros la pantalla, el color, los puntos que definan el polígono que estamos dibujando*, y el ancho de 1 pixel.
 
 *Los puntos quedarían así definidos:
-### IMAGEN PUNTOS
+{% include figure image_path="/images/GameOfLife/pantalla celdas.jpg" %}
 
 Y este sería el código.
 
@@ -170,7 +170,7 @@ while True:
 
 Y tendríamos así la pantalla.
 
-### IMAGEN PANTALLA CUADRÍCULA
+{% include figure image_path="/images/GameOfLife/celdas.jpg" %}
 
 ### 3. Estado de las Celdas
 
@@ -186,7 +186,7 @@ gameState = np.zeros((ncX, ncY))
 
 Como hemos visto inicialmente con unas simples reglas podemos llegar a un comportamiento complejo. Estas reglas alteran el estado de cada celda en cada "momento". Este cambio de estado va a depender del estado de las celdas vecinas (hay 8 celdas vecinas para cada celda) a la que estamos analizando. 
 
-### IMAGEN Vecinas
+{% include figure image_path="/images/GameOfLife/vecinos.jpg" %}
 
 En el caso de las celdas que se encuentran en los bordes de nuestra pantalla de juego, las celdas vecinas van a ser las que se encuentran en el borde opuesto. Vamos a visualizar la pantalla como si fuera un toroide, es decir, la pantalla no termina en un borde sino que continua por el borde contrario. Para esto vamos a utilizar la operación módulo.
 
