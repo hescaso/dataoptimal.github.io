@@ -23,7 +23,7 @@ El Mahjong consta de 4 palos o familias, con un total de 34 fichas distintas (si
 de las ruedas, en total 9 fichas distintas. Tenemos 109 imágenes distintas de este palo de las cuales hay 4 copias, por lo que contamos con 436 imágenes en total. Son pocas imágenes,
 pero para nuestro modelo inicial servirá. Para la versión definitiva de nuestro modelo tenemos que obtener muchas más imágenes y haremos uso de Data Augmentation.
 
-**IMÁGENES RUEDAS
+{% include figure image_path="/images/mahjong/ImagenRuedas.png" %}
 
 Podemos ver como hay imágenes de fichas físicas y otras imágenes de fichas digitales. Algunas tienen la insignia con el número. Esto puede complicar el acierto de nuestro
 algoritmo, lo veremos en detalle.
