@@ -1,3 +1,15 @@
+---
+title: "Red Neuronal Convolucional: Detección Fichas Mahjong"
+date: 2020-05-22
+tags: [machine learning, regression, classification]
+header:
+  image: "/images/MachineLearning/champan.jpg"
+excerpt: "Detección de Imágenes, Red Neuronal Convolucional, CNN"
+classes: "wide"
+mathjax: "true"
+
+---
+
 Tengo el objetivo de crear un algoritmo de reconocimiento de imágenes, fichas de Mahjong en este caso, mediante una Red Neuronal Convolucional (CNN). Utilizaremos Keras en Python.
 Este algoritmo nos servirá para introducir esta funcionalidad en la aplicación Mahjong Scoring MCR (https://play.google.com/store/apps/details?id=com.mahjongscoring.activities), 
 y así poder contabilizar las distintas combinaciones de la mano ganadora y obtener la puntuación total de manera automática.
