@@ -28,6 +28,8 @@ pero para nuestro modelo inicial servirá. Para la versión definitiva de nuestr
 Podemos ver como hay imágenes de fichas físicas y otras imágenes de fichas digitales. Algunas tienen la insignia con el número. Esto puede complicar el acierto de nuestro
 algoritmo, lo veremos en detalle.
 
+
+
 ***RED NEURONAL CONVOLUCIONAL*** 
 
 Estos son los pasos que vamos a seguir:
@@ -171,16 +173,16 @@ from keras.layers.advanced_activations import LeakyReLU
 from keras.models import save_model, load_model
 ```
 
-Para llegar al modelo que presento a continuación hemos seguido los siguientes pasos:
+*Para llegar al modelo que presento a continuación hemos seguido los siguientes pasos:*
 
 Nuestra primera red es una toma de contacto y me sirve para ver que todo está en su sitio. Es una red muy básica con estas capas:
 
-Convolution2D (32 filtros, kernel 3x3, valid, e imágenes (64x64x3)
-Activación RELU
-MaxPooling2D
-Flatten
-Dropout (0.25)
-Dense (2, sigmoid)
+- Convolution2D (32 filtros, kernel 3x3, valid, e imágenes (64x64x3)
+- Activación RELU
+- MaxPooling2D
+- Flatten
+- Dropout (0.25)
+- Dense (2, sigmoid)
 
 Además, tiene un batch_size de 128 y 20 épocas (Estos parámetros se mantendrán inalterables en la fase 1 y 2). En el compile siempre incluimos categorical_crossentropy, 
 optimizador Adam y como métrica accuracy.
@@ -188,15 +190,15 @@ optimizador Adam y como métrica accuracy.
 Con esta primera red conseguimos cerca de un 0.4% de accuracy. Viendo el mal resultado de esta red comenzamos a introducir más capas que ayuden a nuestro modelo, 
 incluimos otra capa de Convolution2D con activación RELU y otra MaxPooling, quedando algo parecido a esto:
 
-Convolution2D (32 filtros, kernel 3x3, valid, (64x64x3))
-Activación RELU
-MaxPooling2D
-Convolution2D (64 filtros, kernel 3x3, valid, (64x64x3))
-Activación RELU
-MaxPooling2D
-Flatten
-Dropout (0.25)
-Dense (10, softmax)
+- Convolution2D (32 filtros, kernel 3x3, valid, (64x64x3))
+- Activación RELU
+- MaxPooling2D
+- Convolution2D (64 filtros, kernel 3x3, valid, (64x64x3))
+- Activación RELU
+- MaxPooling2D
+- Flatten
+- Dropout (0.25)
+- Dense (10, softmax)
 
 Con esto termina la primera fase con la que no consigo buenos resultados, teniendo entre un 0.5 y 0.6 de accuracy.
 
@@ -207,18 +209,18 @@ final ya que esto nos ayuda a evitar el sobreajuste.
 
 En este punto tenemos una red parecida a esto:
 
-Convolution2D (32 filtros, kernel 3x3, valid, (64x64x3), ReLU)
-MaxPooling2D
-Convolution2D (64 filtros, kernel 3x3, valid, (64x64x3), ReLU)
-MaxPooling2D
-Convolution2D (128 filtros, kernel 3x3, valid, (64x64x3), ReLU)
-Dropout (0.2)
-MaxPooling2D
-Convolution2D (256 filtros, kernel 3x3, valid, (64x64x3), ReLU)
-MaxPooling2D
-Flatten()
-Dropout (0.5)
-Dense (10, softmax)
+- Convolution2D (32 filtros, kernel 3x3, valid, (64x64x3), ReLU)
+- MaxPooling2D
+- Convolution2D (64 filtros, kernel 3x3, valid, (64x64x3), ReLU)
+- MaxPooling2D
+- Convolution2D (128 filtros, kernel 3x3, valid, (64x64x3), ReLU)
+- Dropout (0.2)
+- MaxPooling2D
+- Convolution2D (256 filtros, kernel 3x3, valid, (64x64x3), ReLU)
+- MaxPooling2D
+- Flatten()
+- Dropout (0.5)
+- Dense (10, softmax)
 
 En este punto nuestra red ha mejorado, esta por encima del 0.7 de acc, pero todavía tenemos que mejorarla. Comenzamos a introducir parámetros en nuestras capas Convolution2D 
 y vamos cambiando para ver cuales son los que mejor funcionan. Incluimos también una capa densa con activación ReLu antes de la otra capa densa que teníamos. 
