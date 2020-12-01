@@ -92,8 +92,7 @@ np.random.shuffle(y)
 
 
 ```python
-Aunque tengamos pocas imágenes vamos a dividir el set de datos en 75-25 para entrenamiento y para test. A su vez, el conjunto de entrenamiento también lo subdividiremos en otro 
-80-20 para Entrenamiento y Validación en cada iteración (EPOCH) de aprendizaje.
+# Aunque tengamos pocas imágenes vamos a dividir el set de datos en 75-25 para entrenamiento y para test. A su vez, el conjunto de entrenamiento también lo subdividiremos en otro 80-20 para Entrenamiento y Validación en cada iteración (EPOCH) de aprendizaje.
 
 # Separamos nuestras imágenes en el conjunto de train y de test:
 X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.25, random_state=8)
@@ -131,7 +130,7 @@ print(y_test.shape)
     (109,)
     
 
-Crearemos las etiquetas en labels , es decir, le daremos valores de 1 al 9 a cada dfichas. Esto lo hacemos para poder usar el algoritmo supervisado e indicar que cuando 
+Crearemos las etiquetas en labels , es decir, le daremos valores de 1 al 9 a cada ficha. Esto lo hacemos para poder usar el algoritmo supervisado e indicar que cuando 
 cargamos una imagen del 1 de ruedas en la red, ya sabemos que corresponde con la “etiqueta 1”. Y con esa información, entrada y salida esperada, la red al entrenar, 
 ajustará los pesos de las neuronas.
 
@@ -392,14 +391,6 @@ Vemos como nuestro modelo con el conjunto de test tiene un "accuracy" por encima
 model.save("modelmahjong.h5py")
 ```
 
-    WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
-    Instructions for updating:
-    This property should not be used in TensorFlow 2.0, as updates are applied automatically.
-    WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
-    Instructions for updating:
-    This property should not be used in TensorFlow 2.0, as updates are applied automatically.
-    INFO:tensorflow:Assets written to: modelmahjong.h5py/assets
-    
 
 
 ```python
@@ -441,26 +432,15 @@ plt.figure()
 
 ```
 
-    No handles with labels found to put in legend.
-    
+
+
+{% include figure image_path="/images/mahjong/output_25_2.png" %}
+
+
+{% include figure image_path="/images/mahjong/output_25_3.png" %}
 
 
 
-
-    <Figure size 432x288 with 0 Axes>
-
-
-
-
-![png](output_25_2.png)
-
-
-
-![png](output_25_3.png)
-
-
-
-    <Figure size 432x288 with 0 Axes>
 
 
 Visualmente podemos ver la accuracy no crece desde la época 23 aproximadamente, y la función de pérdida tiene su mínimo en la época 26. Con esto podemos concluir que nuestro 
@@ -494,7 +474,7 @@ for i in fails:
     
 
 
-![png](output_28_1.png)
+{% include figure image_path="/images/mahjong/output_28_1.png" %}
 
 
     72
@@ -502,7 +482,7 @@ for i in fails:
     
 
 
-![png](output_28_3.png)
+{% include figure image_path="/images/mahjong/output_28_3.png" %}
 
 
     80
@@ -510,7 +490,7 @@ for i in fails:
     
 
 
-![png](output_28_5.png)
+{% include figure image_path="/images/mahjong/output_28_5.png" %}
 
 
     92
@@ -518,7 +498,7 @@ for i in fails:
     
 
 
-![png](output_28_7.png)
+{% include figure image_path="/images/mahjong/output_28_7.png" %}
 
 
     95
@@ -526,7 +506,7 @@ for i in fails:
     
 
 
-![png](output_28_9.png)
+{% include figure image_path="/images/mahjong/output_28_9.png" %}
 
 
 Como hay imágenes repetidas vemos que los fallos realmente han sido solo en 2 imágenes. Además, como comentábamos antes, las fichas en las que fallan son aquellas que tienen la
