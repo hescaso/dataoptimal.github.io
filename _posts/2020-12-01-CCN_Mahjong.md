@@ -434,7 +434,7 @@ plt.figure()
 
 
 
-{% include figure image_path="/images/mahjong/output_25_2.png" %}
+{% include figure image_path="/images/mahjong/output_25_2.jpg" %}
 
 
 {% include figure image_path="/images/mahjong/output_25_3.png" %}
