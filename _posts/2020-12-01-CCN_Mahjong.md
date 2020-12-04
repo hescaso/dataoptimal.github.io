@@ -1,6 +1,6 @@
 ---
 title: "Red Neuronal Convolucional: Detección Fichas Mahjong"
-date: 2020-05-22
+date: 2020-12-01
 tags: [Detección de Imágenes, Red Neuronal Convolucional, CNN]
 header:
   image: "/images/mahjong/mahjong.png"
