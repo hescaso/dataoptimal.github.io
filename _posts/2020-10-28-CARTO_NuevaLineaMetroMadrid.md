@@ -91,7 +91,6 @@ Como posee demasiada información no útil para nuestro análisis, decidimos eli
 Revisamos que se ha cargado correctamente y procedemos a dar estilo a nuestros datos. Cambiamos el color de los puntos 	por el valor línea, utilizando el color real de cada línea de metroque tiene cada estación. Nos encontramos con el primer problema de restricción de colores, ya que solo podemos utilizar 11 colores, pero las líneas reales son 13. Dejamos en otros las Estaciones pertenecientes a las líneas 8, 11, ramales y Metro Ligero.
 
 Tras esto, fijamos el tamaño del punto en 12, y el borde en 2. 
-{% include figure image_path="/images/paradas.png" %}
 
 El siguiente dataset incluido es M4_Tramos, como hemos dicho anteriormente es un dataset geolocalizado tipo Json. Analizando los datos vemos que tiene Geometría tipo línea.
 
@@ -99,7 +98,8 @@ En este caso dejamos la mayoría de las columnas.
 
 Vemos como reconoce bien el dataset y marca las líneas uniendo efectivamente las distintas paradas de metro. Damos estilo a la capa, cambiando el color de las líneas por el valor numerolineausuario que al igual que en el anterior dataset representan las líneas de metro. Tenemos el mismo problema que anteriormente con el número de colores, por lo que damos color a las mismas líneas de metro que en el anterior dataset dejando en otras la línea 8, 11 y ramales.
 
-Con estas dos capas tenemos “dibujada” la red de Metro de Madrid.   
+Con estas dos capas tenemos “dibujada” la red de Metro de Madrid. 
+{% include figure image_path="/images/paradas.png" %}
 
 Ahora vamos a cargar el dataset Entradas y Utilizaciones por Estaciones, que es en el que se encuentran los datos útiles para nuestro análisis. Antes de cargarlo,tenemos que incluir la geolocalización de las distintas Estaciones.
 
