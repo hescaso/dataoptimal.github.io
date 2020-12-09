@@ -153,7 +153,7 @@ Además de esto, hemos creado 3 Widgets:
 
 Por último, hemos creado una leyenda muy básica con la información relevante de la visualización, las Entradas y las Utilizaciones.
 
-##3.	Conclusiones
+## 3.	Conclusiones
 
 Tras el análisis realizado de los datos, hemos llegado a la conclusión de que las 5 estaciones con mayor transito de viajeros son, de sur a norte, Méndez Álvaro, Atocha Renfe, Sol, Príncipe Pío y Moncloa.
 
