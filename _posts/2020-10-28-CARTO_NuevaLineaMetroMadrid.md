@@ -90,7 +90,8 @@ Como posee demasiada información no útil para nuestro análisis, decidimos eli
 
 Revisamos que se ha cargado correctamente y procedemos a dar estilo a nuestros datos. Cambiamos el color de los puntos 	por el valor línea, utilizando el color real de cada línea de metroque tiene cada estación. Nos encontramos con el primer problema de restricción de colores, ya que solo podemos utilizar 11 colores, pero las líneas reales son 13. Dejamos en otros las Estaciones pertenecientes a las líneas 8, 11, ramales y Metro Ligero.
 
-Tras esto, fijamos el tamaño del punto en 12, y el borde en 2.
+Tras esto, fijamos el tamaño del punto en 12, y el borde en 2. 
+{% include figure image_path="/images/paradas.png" %}
 
 El siguiente dataset incluido es M4_Tramos, como hemos dicho anteriormente es un dataset geolocalizado tipo Json. Analizando los datos vemos que tiene Geometría tipo línea.
 
