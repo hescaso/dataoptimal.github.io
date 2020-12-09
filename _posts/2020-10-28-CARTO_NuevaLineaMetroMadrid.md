@@ -33,7 +33,7 @@ Para comenzar buscamos datos de la red de Metro de Madrid que nos pueda ayudar e
 
 Los datasets seleccionados para nuestro análisis son los siguientes:
 
-##### Entradas y Utilizaciones por Estaciones
+### Entradas y Utilizaciones por Estaciones
 Obtenido a través de la página de Metro de Madrid. Este dataset como su nombre indica, nos da información de las Entradas y Utilizaciones. Definiendo estos conceptos (según nos ha facilitado el propio CTM):
 - Entradas: El término “Entradas” se refiere al número de entradas por las barreras de peaje de los vestíbulos de cada estación.
 - Utilizaciones: El término “Utilizaciones” se refiere al número de movimientos por el interior de una estación. Para su cálculo se contabilizan las entradas y las salidas por las barreras de peaje de los vestíbulos y se añaden los cambios entre líneas (transbordos) si se trata de estación múltiple con acceso a más de una línea de Metro.
@@ -43,7 +43,7 @@ Este dataset nos da la siguiente información:
 -	Línea de Metro correspondiente a cada Estación.
 -	Entradas y Utilizaciones de los años 2014, 2015, 2016, 2017 y 2018.
 
-##### M4_Estaciones
+### M4_Estaciones
 Obtenido a través del Portal de Datos Abiertos del CTM. Este dataset geolocalizado nos da la siguiente información:
 -	ID Estación
 -	Código Estación.
@@ -60,7 +60,7 @@ Obtenido a través del Portal de Datos Abiertos del CTM. Este dataset geolocaliz
 -	Accesibilidad
 -	Situación Calle
 
-##### M4_Tramos
+### M4_Tramos
 Obtenido a través del Portal de Datos Abiertos del CTM. Este dataset geolocalizado nos da la siguiente información útil:
 -	Id tramo.
 -	Código del itinerario.
