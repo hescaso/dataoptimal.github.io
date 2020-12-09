@@ -161,6 +161,6 @@ Dos estaciones pertenecen a la línea 6 de Metro, Méndez Álvaro y Moncloa, per
 
 La conclusión de nuestro análisis es que Metro de Madrid podría crear una línea de tan solo 5 paradas que tuviera el recorrido Méndez Álvaro-Atocha Renfe-Sol-Príncipe Pío-Moncloa, y que fuera el Eje Central de la movilidad madrileña ya que uniría las cinco Estaciones más importantes de la ciudad.
 
-## Esta línea podría ser la LÍNEA 0, y tendría color blanco como las estrellas de Madrid.
+### Esta línea podría ser la LÍNEA 0, y tendría color blanco como las estrellas de Madrid.
 {% include figure image_path="/images/map5.jpg" %}
 
