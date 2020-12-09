@@ -164,3 +164,4 @@ La conclusión de nuestro análisis es que Metro de Madrid podría crear una lí
 ### Esta línea podría ser la LÍNEA 0, y tendría color blanco como las estrellas de Madrid.
 {% include figure image_path="/images/map5.jpg" %}
 
+
