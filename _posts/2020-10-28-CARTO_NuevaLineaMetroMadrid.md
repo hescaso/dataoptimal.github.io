@@ -100,7 +100,7 @@ Vemos como reconoce bien el dataset y marca las líneas uniendo efectivamente la
 
 Con estas dos capas tenemos “dibujada” la red de Metro de Madrid.   
 
-Ahora vamos a cargar el dataset Entradas y Utilizaciones por Estaciones, que es en el que se encuentran los datos útiles para nuestro análisis. Antes de cargarlo (o mejor dicho, tras intentar realizar el análisis de geolocalización en CARTO sin éxito) incluimos la geolocalización de las distintas Estaciones.
+Ahora vamos a cargar el dataset Entradas y Utilizaciones por Estaciones, que es en el que se encuentran los datos útiles para nuestro análisis. Antes de cargarlo,tenemos que incluir la geolocalización de las distintas Estaciones.
 
 Contrastamos que se ha cargado correctamente y revisamos los datos. Tenemos información de Entradas y Utilizaciones desde 2014 hasta 2018. Para nuestro análisis vamos a centrarnos en los datos de 2018, ya que son los más actualizados y pueden darnos una información real que nos ayude a decidir (Otro estudio interesante podría ser estudiar cómo ha ido aumentando la utilización de las estaciones que se abierto en los últimos años, pero lo dejamos para otra ocasión).
 
