@@ -19,6 +19,7 @@ El Consorcio de Transportes de la Comunidad de Madrid (CTM) nos ha encargado un 
 Para dar respuesta al encargo recibido, se decide analizar el tránsito de viajeros que tiene cada una de las estaciones actualmente, y en función de las estaciones con mayor uso poder crear una ruta que agilice la movilidad.
 En primer lugar, tenemos que recopilar los datos necesarios para el análisis.
 Tras esto, analizaremos los datos para tener una foto del tránsito de viajeros anualmente.
+Realizaremos un análisis visual del estudio mediante la aplicación CARTO.
 Por último, emitiremos un informe de conclusiones para dar respuesta a la solicitud.
 
 
