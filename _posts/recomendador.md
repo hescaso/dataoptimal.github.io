@@ -1,3 +1,16 @@
+---
+title: "Sistema de Recomendación"
+date: 2021-02-01
+tags: [Recommender systems, Sistemas de recomendación, collaborative filtering recommender system, filtrado colaborativo]
+header:
+  image: "/images/recom.png"
+excerpt: "Recommender systems, Sistemas de recomendación, collaborative filtering recommender system, filtrado colaborativo"
+classes: "wide"
+mathjax: "true"
+
+---
+
+
 RECOMENDADOR DE PELÍCULAS
 
 
