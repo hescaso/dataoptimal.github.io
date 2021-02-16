@@ -3,7 +3,7 @@ title: "Mahjong: El último bastión humano contra la IA"
 date: 2021-02-16
 tags: [Inteligencia Artificial, IA, Artificial Intelligence, AlphaGO, Mahjong, chess]
 header:
-  image: "/images/partidaMahjong_encabezado.jpg"
+  image: "/images/imagen2_fondo.jpg"
 excerpt: "Artificial Intelligence, AI, Mahjong, Chess, AlphaGO"
 classes: "wide"
 mathjax: "true"
