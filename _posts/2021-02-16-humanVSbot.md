@@ -1,3 +1,15 @@
+---
+title: "Mahjong: El último bastión humano contra la IA"
+date: 2021-02-16
+tags: [Inteligencia Artificial, IA, Artificial Intelligence, AlphaGO, Mahjong, chess]
+header:
+  image: "/images/AnalisisSentimientos/AnalisisSentimientos.jpeg"
+excerpt: "Artificial Intelligence, AI, Mahjong, Chess, AlphaGO"
+classes: "wide"
+mathjax: "true"
+
+---
+
 Hace ya muchos años que una Inteligencia Artificial nos venció al primer juego. Todos se acuerdan del ajedrez con **“Deep Blue”**, pero realmente la primera gran victoria de una IA fue en 1994 cuando la IA **“Chinook”** ganó el campeonato del mundo de Damas. Quizá, este hecho no es tan recordado ya que las Damas es un juego con menos fama que el ajedrez y en el cual está demostrado que si dos jugadores juegan siempre la juega óptima el resultado siempre será de tablas, no existen “jugadas mágicas” que conduzcan a otro resultado. Desde ese momento, las diferentes IAs no han parado de vencernos a cada juego que se han propuesto. 
 
 Como comentábamos, en 1996, fue la primera vez que una *“máquina”* venció a un humano en una partida de ajedrez. Pero no fue hasta 1997 cuando la computadora **IBM "Deep Blue"** derrotó a *Gary Kasparov*, el campeón de ajedrez más joven de la historia, en un encuentro a 6 partidas oficial. La primera partida la ganó en tan solo 32 movimientos, llevándose el enfrentamiento por 3,5 puntos frente a los 2,5 de Kasparov. 
