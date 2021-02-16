@@ -28,6 +28,6 @@ Con esto podíamos comparar no quien ganaba la partida (hay que tener en cuenta 
 
 La gran batalla  se produjo el pasado 30 de enero denominándose **"A Game with AI"**, y se transmitió en vivo por el canal **YY Live Sports Channel**. El resultado fue el siguiente: 
 
-{% include figure image_path="/images/partidaMahjong.jpg" %}
+{% include figure image_path="/images/humanVSbot.png" %}
 
 Como podemos ver los 2 humanos ganaron un total de **205** y **204** puntos respectivamente, mientras que **“Kima”** tan solo obtuvo **66** puntos. Definitivamente esta fue una victoria claramente humana. De momento podemos considerar al Mahjong como el último bastión de los humanos en lo que se refiere a juegos, aunque estamos seguros de que si siguen esta línea de investigación no tardarán demasiado tiempo en conseguir una IA que venza también es esta disciplina.
