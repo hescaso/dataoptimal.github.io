@@ -51,11 +51,11 @@ Una vez hemos definido la dirección, hacemos el get de la información y la con
 Antes de comenzar a obtener la información deseada, tenemos que conocer el nombre del contenedor donde se encuentra. Para esto vamos a la página web y pinchando sobre el botón derecho seleccionamos la opción de inspeccionar.
 
 
-# 11111.IMAGEN INSPECCIONAR
+{% include figure image_path="/images/padel/inspeccionar.png" %}
 
 Después buscaremos el nombre del contenedor que contiene la información.
 
-# 11111.IMAGEN contenedor
+{% include figure image_path="/images/padel/contenedor.png" %}
 
 
 Una vez que sabemos esto podemos empezar con el scraping.
