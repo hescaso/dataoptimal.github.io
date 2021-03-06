@@ -1,3 +1,15 @@
+---
+title: "WEB SCRAPING: Creando nuestra base de datos de palas de padel"
+date: 2021-03-06
+tags: [WebScraping, Scraping, BaseDatos]
+header:
+  image: "/images/padel/palaspadel.jpg"
+excerpt: "WebScraping, Scraping, BaseDatos"
+classes: "wide"
+mathjax: "true"
+
+---
+
 En este blog vamos crear nuestra base de datos de datos de palas de padel scrapeando la información de una página web.
 En este caso existen 49 páginas con 12 palas en cada página, en total tendremos información de más de 580 palas.
 Nos interesa tener la siguiente información por cada pala:
