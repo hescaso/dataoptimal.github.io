@@ -33,7 +33,7 @@ Estos son algunas de los métodos de recomendación más utilizados:
 
 **Content-based**: A partir de productos visitados por el usuario, se intenta “adivinar” qué busca el usuario y ofrecer mercancías similares. Un ejemplo clásico es Amazón, en la que guiado por nuestras visitas (no hace falta que se compre) nos ofrece productos similares hasta que el algoritmo detecta nuestro cambio de "necesidad".
 
-**Colaborative**: Es el más novedoso, pues utiliza la información de “masas” para identificar perfiles similares y aprender de los datos para recomendar productos de manera individual. Este tipo de sistema de recomendación es el que vamos a ver en detalle.
+**Collaborative**: Es el más novedoso, pues utiliza la información de “masas” para identificar perfiles similares y aprender de los datos para recomendar productos de manera individual. Este tipo de sistema de recomendación es el que vamos a ver en detalle.
 
 Se basa en el supuesto de que si las personas coinciden en gustos en el pasado también lo harán en el futuro.
 PROS: Fácil de implementar con resultado acertado.
@@ -42,7 +42,7 @@ CONTRAS: Sin un ranking inicial no es posible tener una recomendación.
 
 ## Comenzamos a contruir nuestro motor
 
-Existen varias formas de construir un sistema de recomendación *colaborative*.
+Existen varias formas de construir un sistema de recomendación *collaborative*.
 
 En nuestro caso vamos a probar varios métodos, en primer lugar correlaremos nuestra matriz con el método de Pearson, y en segundo lugar utilizaremos la librería Surprise (Surprise es una herramienta de Python para construir y analizar sistemas de recomendación que tratan con datos de calificación explícitos) y probaremos algunos de sus algoritmos para ver cual arroja el menor error posible.
 
